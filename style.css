@@ -1,0 +1,58 @@
+*{
+   
+    font-family: 'Montserrat', sans-serif;
+    margin 10px;
+    box-sizing: border-box;
+}
+
+.navigation {
+        background-color: #001730;
+       }
+.opcion-menu {
+       
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        line-height: 19px;
+        font-size: 16px;
+        color: rgb(242, 245, 248) !important;
+        
+  }
+
+
+
+aside{
+
+    width: 250px;
+    position: fixed;
+    justify-content: flex-start;
+}
+
+.ulmenu{
+    /* formato de la lista */
+    padding: 5px;
+    margin: 15px;
+
+}
+
+.ilmenu {
+/*foramto items de la lista menu */
+
+    
+    margin: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: 400;
+    color: #00203F;
+    list-style: none;
+
+}
+
+/* iconos del menu lateral de admin */
+.iconmenuadmin{
+
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    
+}
